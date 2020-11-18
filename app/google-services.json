@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "99424534490",
+    "firebase_url": "https://stickerfly-9d969.firebaseio.com",
+    "project_id": "stickerfly-9d969",
+    "storage_bucket": "stickerfly-9d969.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99424534490:android:ae038f8b60dd4a42508ae3",
+        "android_client_info": {
+          "package_name": "com.sticker.kevin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99424534490-l0ie0vrkgmt7cj1g98ujfp863bp99rgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA29EcPxqXp-qWPmp7kxh0frNvRPp9bRZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99424534490-l0ie0vrkgmt7cj1g98ujfp863bp99rgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

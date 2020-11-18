@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_gravity="center">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_marginRight="25dp"
+ app:cardCornerRadius="30dp"
+    android:layout_centerInParent="true"
+    android:layout_height="400dp"
+    >
+    <ImageView
+        android:layout_gravity="right"
+        android:id="@+id/cerrarVentana"
+        android:layout_width="30dp"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="7dp"
+        android:elevation="5dp"
+
+        android:layout_height="30dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:id="@+id/arriba"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/texto"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="iFormulas y StickerFly "
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/log_iformulas_final2"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+android:id="@+id/kota2"
+    android:layout_marginTop="10dp"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginTop="150dp"
+           android:layout_marginRight="5dp"
+           android:text="¿Sabias que existe una aplicación que te muestra todas las formulas matemáticas, químicas y físicas?"
+
+           android:textAlignment="center"
+           android:textColor="@android:color/black"
+
+           android:textSize="16dp"
+
+
+           />
+
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="5dp"
+        android:text="Además de contar con diversas herramientas para mejorar en la escuela y el trabajo. ¿INTERESANTE, NO?"
+        android:textAlignment="center"
+        android:textColor="#2A2D33"
+        android:textSize="16dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/botonvamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorGreen1"
+
+        android:textStyle="bold"
+        android:background="@drawable/btn_redondo"
+        android:text="DESCARGA LA APP"
+        android:textColor="@android:color/white" />
+
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

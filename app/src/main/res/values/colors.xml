@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3094EB</color>
+    <color name="colorPrimaryDark">#216FC9</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="inactiveAddButtonColor">#B3B3B3</color>
+    <color name="infoPageBackgroundColor">#EBEBEB</color>
+    <color name="actionBarArrowColor">#FFFFFF</color>
+    <color name="colorGreen1">#3eb959</color>
+    <color name="md_teal_600">#00897b</color>
+    <color name="modelo_verde">#ACEBD3</color>
+    <color name="colorGreen">#abffc0</color>
+    <color name="overlay_dark_30">#FFFFFF</color>
+
+    <color name ="azulito">#4EA56F</color>
+</resources>
